@@ -1,0 +1,51 @@
+.header, .links, .write, .portfolio, .endPage, .footer {
+    width: 100%;
+    margin: 0 auto;
+}
+ .links, .write, .portfolio, .endPage {
+    height: 700px;
+}
+ .btn > a{
+     color: black;
+ }
+.col-md-3 > a:hover {
+    text-decoration: none;
+}
+.lightblue {
+    padding: 5px;
+    background-color: #a3ecff;
+    position: fixed;
+}
+.center {
+    width: 40%;
+    margin: 0 auto;
+}
+.links {
+    background: url('../img/top.jpg') round;
+    overflow: hidden;
+}
+
+.write {
+    background: url('../img/about.jpg') round;
+    overflow: hidden;
+}
+.portfolio {
+    background: url('../img/top.jpg') round;
+    overflow: hidden;
+}
+.endPage {
+    background: url('../img/bottom.jpg') round;
+    overflow: hidden;
+}
+/*.links:before {*/
+    /*content: "";*/
+    /*position:absolute;*/
+    /*top: 45px;*/
+    /*width: 100%;*/
+    /*height: 700px;*/
+    /*background: rgba(0,0,0,0.4);*/
+/*}*/
+.ghost {
+    visibility: hidden;
+    padding: 5px;
+}
