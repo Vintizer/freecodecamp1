@@ -66,41 +66,63 @@
     flex-wrap: wrap;
 }
 .write-inside {
-    top:50px;
-    width: 70%;
-    margin: 50px auto;
+    width: 50%;
+    margin: 150px auto;
+}
+.port{
+    margin: 100px auto 50px;
 }
 .headSpan {
     font-size: 2.6em;
 }
-.left-part{
+.left-part, .port-text, .portfolio{
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     font-size: 1.6em;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
     color: black;
+    background-color: rgba(173,173,173,0.3);
+    border-radius: 40px;
+    text-align: center;
+}
+.left-part{
     width: 40%;
     float: left;
 }
 .right-part{
+
+    margin: 100px auto;
     width: 40%;
     float: right;
 }
 .radius {
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.6);
     width: 200px;
     height: 200px;
     border-radius: 100px;
 }
-/*.fa-twitter:before {*/
-    /*content: "\f099";*/
-/*}*/
-/*.fa-github:before {*/
-    /*content: "\f09b";*/
-/*}*/
-/*.fa-linkedin:before {*/
-     /*content: "\f0e1";*/
-/*}*/
-/*.fa-fire:before {*/
-    /*content: "\f06d";*/
-/*}*/
-
+.grid-img{
+    width: 250px;
+    height: 250px;
+}
+.grid{
+    width: 270px;
+    height: 330px;
+    margin-bottom: 20px;
+}
+.port-examples{
+    width: 30%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.grid:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.7);
+}
+.grid-span{
+    width: 250px;
+    margin: 0 auto;
+    background-color: rgba(30,30,30,0.8);
+    color: white;
+}
